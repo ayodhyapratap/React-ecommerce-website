@@ -1,0 +1,17 @@
+.back{
+    backdrop-filter: 10px;
+}
+
+
+.child {
+    
+    opacity: 0;
+   
+    transition: all 0.5s ease-in-out;
+}
+
+.parent:hover .child {
+    
+    opacity: 1;
+    
+}

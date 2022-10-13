@@ -1,0 +1,25 @@
+.stopOverflow{
+    overflow-y: scroll;
+
+}
+
+
+.stopOverflow::-webkit-scrollbar {
+    display: none;
+}
+
+
+.slick-dots li{
+    width: 68px;
+}
+
+
+.slick-prev:before, .slick-next:before{
+    color: blue;
+}
+li.slick-active{
+    border-bottom: 1px solid red;
+    height: 0px;
+    transition: ease-in 0.4s;
+   
+}

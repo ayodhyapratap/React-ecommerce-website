@@ -1,0 +1,11 @@
+.scroll-container{
+    scroll-snap-type: x;
+    /* flex-flow: row nowrap; */
+    overflow: scroll;
+    width:400px;
+  height: 128px;
+  display: flex;
+  flex-direction: row;
+  
+    
+}

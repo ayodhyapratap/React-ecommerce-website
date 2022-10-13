@@ -1,0 +1,7 @@
+
+li.slick-active{
+    
+    height: 0px;
+    transition: ease-in 0.4s;
+   
+}
